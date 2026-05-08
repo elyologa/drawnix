@@ -25,7 +25,8 @@
     "clean": "nx reset && rm -rf node_modules dist",
     "clean:dist": "rm -rf dist",
     "deps:check": "npm outdated",
-    "deps:update": "npx npm-check-updates -i"
+    "deps:update": "npx npm-check-updates -i",
+    "dev": "nx serve drawnix --open"
   },
   "dependencies": {
     "@angular/animations": "^17.0.0",
