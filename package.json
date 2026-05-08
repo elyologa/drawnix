@@ -24,7 +24,8 @@
     "affected:lint": "nx affected --target=lint",
     "clean": "nx reset && rm -rf node_modules dist",
     "clean:dist": "rm -rf dist",
-    "deps:check": "npm outdated"
+    "deps:check": "npm outdated",
+    "deps:update": "npx npm-check-updates -i"
   },
   "dependencies": {
     "@angular/animations": "^17.0.0",
@@ -57,6 +58,7 @@
     "eslint-config-prettier": "^9.0.0",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
+    "npm-check-updates": "^16.0.0",
     "nx": "^17.0.0",
     "prettier": "^3.0.0",
     "ts-jest": "^29.1.0",
